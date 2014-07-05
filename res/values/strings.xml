@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ikompras Sync</string>
+
+    <string name="url_registration">URL de Registro:</string>
+    <string name="url_sync">URL de Sincronización:</string>
+    <string name="node_group_id">Grupo ID:</string>
+    <string name="externa_id">Id Externo:</string>
+    <string name="start_in_background">Iniciar en Segundo Plano</string>
+    
+    <string name="host_bind_name">Nombre Ordenador:</string>
+    <string name="http_port">Puerto Http:</string>
+    <string name="https_port">Puerto Https:</string>
+    <string name="database_version">Version Base de Datos:</string>
+    <string name="deployment_type">Tipo de Utilización:</string>
+    <string name="symmetric_version">Version Symmetric:</string>
+    
+    <string name="timezone_offset">Zona Horaria:</string>
+    <string name="http_enable">Http</string>
+    <string name="tab_register">Registro</string>
+    <string name="tab_server">Servidor</string>
+    <string name="tab_info">Información</string>
+    
+    <string name="mstart_service">Iniciar</string>
+    <string name="mstop_service">Detener</string>
+    <string name="msetup">Configurar</string>
+    
+    <string name="pcregister">Registro del Servidor</string>
+    <string name="prefname">mypreferences</string>
+    <string name="back">Volver</string>
+    
+    <bool name="start_background" >true</bool>
+
+</resources>

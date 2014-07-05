@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceScreen android:title="@string/pcregister" >
+        <EditTextPreference
+            android:key="nodegroupid"
+            android:title="@string/node_group_id"
+            android:summary="Agregue el identificador al grupo que pertenece" />
+        <EditTextPreference 
+            android:key="externalid"
+            android:title="@string/externa_id"
+            android:summary="Coloque el identificador externo"/>
+        <EditTextPreference
+            android:key="urlregister"
+            android:title="@string/url_registration"
+            android:summary="Digite el servidor de registro"
+            android:defaultValue="http://"/>
+        <EditTextPreference
+            android:key="urlsync"
+            android:title="@string/url_sync"
+            android:summary="Añada la direccion de sincronizacion (ej. la url de la table)"
+            android:defaultValue="http://"/>
+        <CheckBoxPreference 
+            android:key="httpbackground"
+            android:title="@string/start_in_background"
+            android:defaultValue="@bool/start_background"/>
+    </PreferenceScreen>
+	<Preference android:key="backbutton"
+	    android:layout="@layout/backbutton"/>
+</PreferenceScreen>
